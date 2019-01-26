@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 47)
+    (drawings 48)
     (tracks 387)
     (zones 0)
     (modules 32)
@@ -12,8 +12,8 @@
   (page USLetter)
   (title_block
     (title "Raspberry Pi SOIC-16 SPI Flash Programmer")
-    (date 2019-01-12)
-    (rev 1.1)
+    (date 2019-01-25)
+    (rev 1.1.1)
   )
 
   (layers
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.2)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
     (user_trace_width 0.35)
@@ -68,7 +68,7 @@
     (mod_text_width 0.15)
     (pad_size 1 1)
     (pad_drill 0.6)
-    (pad_to_mask_clearance 0)
+    (pad_to_mask_clearance -0.0508)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 143.5 181)
     (visible_elements 7FFFFFFF)
@@ -1554,9 +1554,12 @@
     )
   )
 
+  (gr_text "Rev 1.0.1" (at 226 164.5 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 189.3 170.675) (end 189.575 170.4) (layer F.SilkS) (width 0.3))
   (gr_line (start 186 170.675) (end 189.3 170.675) (layer F.SilkS) (width 0.3))
-  (gr_text "Disable to install\nor remove\nFlast!" (at 196.625 151.225) (layer F.SilkS) (tstamp 5C40A2F7)
+  (gr_text "Disable to install\nor remove\nFlash!" (at 196.625 151.225) (layer F.SilkS) (tstamp 5C40A2F7)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "Program\nVoltage\n1.8V\n\n\n\n3.3V" (at 201.6 172.075) (layer F.SilkS)
