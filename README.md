@@ -1,3 +1,7 @@
+Note that there are some issues with this programmer. I suggest moving to
+raspberry-pi-spi-programmer2 instead.  No more development will happen for
+this.
+
 SOIC-8 and SOIC-16 SPI Flash Programmer for Raspberry PI
 
 This hat allows the Raspberry PI to program both SOIC-8 and SOIC-16 SPI
